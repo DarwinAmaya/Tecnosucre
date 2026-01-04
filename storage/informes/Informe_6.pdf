@@ -1,0 +1,15 @@
+%PDF-1.3
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Kids [3 0 R] /Count 1 >> endobj
+3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >> endobj
+4 0 obj << /Length 2649 >> stream
+BT /F1 12 Tf 50 750 Td (INFORME PSICOLÓGICO\n\nPaciente: Mizael Contreras Hernández\nDocumento: 15120916\nFecha emision: 2025-11-18  Hora: 14:22:00\nPsicólogo \(ID\): 1\n\nCONTENIDO DEL INFORME:\n\n<?php\n// index.php\n// Este script actúa como el controlador principal \(Front Controller\)\n// para el sistema, gestionando el enrutamiento y la inclusión segura de vistas.\n\nsession_start\(\);\n\n// =========================================================================\n// 1\) CONSTANTES DE RUTAS\n// Definición de las rutas base para los directorios de includes y páginas.\n// =========================================================================\ndefine\('APP_DIR', __DIR__ . '/app/'\);\ndefine\('INCLUDES_DIR', APP_DIR . 'includes/'\);\ndefine\('PAGES_DIR', APP_DIR . 'pages/'\);\n\n\n// =========================================================================\n// 2\) Páginas válidas \(whitelist\) para evitar includes inseguros\n// CLAVE => TÍTULO \(Usado para la etiqueta <title> o el título H1 de la página\)\n// =========================================================================\n $valid_pages = [\n    // Módulos principales\n    'dashboard'          => 'Dashboard Principal',\n    'configuraciones'     => 'Configuraciones del Sistema',\n    \n    // Módulo de Pacientes\n    'pacientes_nuevo'    => 'Registro de Nuevo Paciente',\n    'pacientes_buscar'   => 'Búsqueda de Pacientes',\n    'pacientes_lista'    => 'Lista de Pacientes',\n    \n    // Módulo de Citas\n    'citas_generar'      => 'Generar Nueva Cita',\n    'citas_editar'       => 'Edición de Citas',\n    'citas_registradas'  => 'Citas Registradas',\n    \n    // Módulo de Informe Psicológico\n    'informe_generar'    => 'Generar Informe Psicológico',\n    'informe_editar'     => 'Editar Informe Psicológico',\n    'informe_registros'  => 'Registros de Informes',\n    \n    // Módulo de Certificados\n    'certificados_nuevo' => 'Generar Nuevo Certificado',\n    'certificados_editar'=> 'Editar Certificado',\n    'certificados_registros' => 'Registros de Certificados',\n    'pdf_certificado'    => 'Generador PDF de Certificado',\n    \n    // Módulo de Usuarios \(Sistema Login\)\n    'usuarios'           => 'Gestión de Usuarios',\n    'usuarios_editar'    => 'Editar Usuarios del Sistema',\n    'usuarios_lista'     => 'Lista de Usuarios del Sistema',\n    \n    // Módulo de Personal \(Recursos Humanos\)\n    'personal_nuevo'     => 'Registro de Nuevo Personal',\n    'personal_editar'    => 'Edición de Datos de Personal',\n    'personal_lista'     => 'Lista de Personal',\n];\n\nGenerado: 2025-11-18 14:22:33\n) Tj ET
+endstream endobj
+5 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+xref
+0 6
+0000000000 65535 f 
+trailer << /Size 6 /Root 1 0 R >>
+startxref
+0
+%%EOF
